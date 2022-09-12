@@ -63,6 +63,8 @@ My structure: <br />
                 -- citeseer folder <br />
                 -- infortr.py <br />
                 -- Readme.md <br />
+
+Clone the project on your local machine.
 Run using:
 
         `python infortr.py`
