@@ -74,71 +74,71 @@ Run using:
 2(a) Total words in the collection:  476198 <br /><br />
 2(b) Total vocab. size:  19886 <br /><br />
 2(c) Top 20 words by ranking: <br /><br />
-('the', 25662) <br />
-('of', 18638) <br />
-('and', 14131) <br />
-('a', 13345) <br />
-('to', 11536) <br />
-('in', 10067) <br />
-('for', 7379) <br />
-('is', 6577)<br />
-('we', 5138)<br />
-('that', 4820)<br />
-('this', 4446)<br />
-('are', 3737)<br />
-('on', 3656)<br />
-('an', 3281)<br />
-('with', 3200)<br />
-('as', 3057)<br />
-('by', 2765)<br />
-('data', 2691)<br />
-('be', 2500)<br />
-('information', 2322)<br />
+0 ('the', 25662) <br />
+1 ('of', 18638) <br />
+2 ('and', 14131) <br />
+3 ('a', 13345) <br />
+4 ('to', 11536) <br />
+5 ('in', 10067) <br />
+6 ('for', 7379) <br />
+7 ('is', 6577)<br />
+8 ('we', 5138)<br />
+9 ('that', 4820)<br />
+10 ('this', 4446)<br />
+11 ('are', 3737)<br />
+12 ('on', 3656)<br />
+13 ('an', 3281)<br />
+14 ('with', 3200)<br />
+15 ('as', 3057)<br />
+16 ('by', 2765)<br />
+17 ('data', 2691)<br />
+18 ('be', 2500)<br />
+19 ('information', 2322)<br />
 Stop words from the Top 20 words are:<br /><br />
-('the', 25662)<br />
-('of', 18638)<br />
-('and', 14131)<br />
-('a', 13345)<br />
-('to', 11536)<br />
-('in', 10067)<br />
-('for', 7379)<br />
-('is', 6577)<br />
-('we', 5138)<br />
-('that', 4820)<br />
-('this', 4446)<br />
-('are', 3737)<br />
-('on', 3656)<br />
-('an', 3281)<br />
-('with', 3200)<br />
-('as', 3057)<br />
-('by', 2765)<br />
-('be', 2500)<br />
+0 ('the', 25662)<br />
+1 ('of', 18638)<br />
+2 ('and', 14131)<br />
+3 ('a', 13345)<br />
+4 ('to', 11536)<br />
+5 ('in', 10067)<br />
+6 ('for', 7379)<br />
+7 ('is', 6577)<br />
+8 ('we', 5138)<br />
+9 ('that', 4820)<br />
+10 ('this', 4446)<br />
+11 ('are', 3737)<br />
+12 ('on', 3656)<br />
+13 ('an', 3281)<br />
+14 ('with', 3200)<br />
+15 ('as', 3057)<br />
+16 ('by', 2765)<br />
+17 ('be', 2500)<br />
 Words that account for 15% or more of the total number of words:  4<br /><br />
 <----------------------------------------------------------------------------------------------------------------------------------------><br /><br />
 Part 3: Integrate a stemmer and stopword<br />
 3(a) Total words in the collection:  294256<br /><br />
 3(b) Total vocab. size:  13778<br /><br />
 3(c) Top 20 words by ranking:<br />
-('system', 3741)<br />
-('use', 3740)<br />
-('data', 2691)<br />
-('agent', 2688)<br />
-('inform', 2398)<br />
-('model', 2315)<br />
-('paper', 2246)<br />
-('queri', 1905)<br />
-('user', 1756)<br />
-('learn', 1740)<br />
-('algorithm', 1584)<br />
-('1', 1552)<br />
-('approach', 1544)<br />
-('problem', 1543)<br />
-('applic', 1522)<br />
-('present', 1507)<br />
-('base', 1486)<br />
-('web', 1439)<br />
-('databas', 1424)<br />
-('comput', 1411)<br /><br />
+0 ('system', 3741)<br />
+1 ('use', 3740)<br />
+2 ('data', 2691)<br />
+3 ('agent', 2688)<br />
+4 ('inform', 2398)<br />
+5 ('model', 2315)<br />
+6 ('paper', 2246)<br />
+7 ('queri', 1905)<br />
+8 ('user', 1756)<br />
+9 ('learn', 1740)<br />
+10 ('algorithm', 1584)<br />
+11('1', 1552)<br />
+12 ('approach', 1544)<br />
+13 ('problem', 1543)<br />
+14 ('applic', 1522)<br />
+15 ('present', 1507)<br />
+16 ('base', 1486)<br />
+17 ('web', 1439)<br />
+18 ('databas', 1424)<br />
+19 ('comput', 1411)<br /><br />
 Stop words from the Top 20 words are:<br />
 Not in top 20. Hence, 0 stopwords<br />
 Words that account for 15% or more of the total number of words:  24<br />

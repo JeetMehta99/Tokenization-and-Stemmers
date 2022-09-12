@@ -48,7 +48,7 @@ def find_stats(val_word_list, count_unique_words_achieved):
     counter = 20
     unique_words_achieved = 0
     for w in range(counter):
-        print(val_word_list[w])
+        print(" ", w, " ", val_word_list[w])
         if val_word_list[w][0] in stopwords:
             top_20.append(val_word_list[w])
 
@@ -59,8 +59,8 @@ def find_stats(val_word_list, count_unique_words_achieved):
     print("Stop words from the Top 20 words are:")
     
     if top_20:
-        for x in top_20:
-            print(x)
+        for x in range(len(top_20)):
+            print(" ", x, " ", top_20[x])
     else:
         print("Not in top 20. Hence, 0 stopwords")
     print("Words that account for 15% or more of the total number of words: ", unique_count)
