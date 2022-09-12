@@ -59,7 +59,7 @@ My structure: <br />
         Desktop <br />
         |       <br />
         --folder <br />
-                | <br />
+&nbsp; &nbsp; &nbsp; &nbsp;         | <br />
                 -- citeseer folder <br />
                 -- infortr.py <br />
                 -- Readme.md <br />
