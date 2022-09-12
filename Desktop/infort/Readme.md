@@ -64,7 +64,7 @@ My structure: <br />
                 -- infortr.py <br />
                 -- Readme.md <br />
 
-Clone the project on your local machine.
+Clone the project on your local machine. <br />
 Run using:
 
         `python infortr.py`
