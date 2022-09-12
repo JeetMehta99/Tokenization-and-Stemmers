@@ -60,9 +60,9 @@ My structure: <br />
         |       <br />
         --folder <br />
 &nbsp; &nbsp; &nbsp; &nbsp;         | <br />
-                -- citeseer folder <br />
-                -- infortr.py <br />
-                -- Readme.md <br />
+&nbsp; &nbsp; &nbsp; &nbsp;                -- citeseer folder <br />
+&nbsp; &nbsp; &nbsp; &nbsp;                -- infortr.py <br />
+&nbsp; &nbsp; &nbsp; &nbsp;                -- Readme.md <br />
 
 Clone the project on your local machine. <br />
 Run using:
