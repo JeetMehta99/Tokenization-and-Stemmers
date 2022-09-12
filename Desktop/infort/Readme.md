@@ -11,12 +11,13 @@ There are five main functions here in my code.
 2. punctuations()
 3. text_cleaning
 4. portStemmer()
-5. find_stats()
+5. find_stats() <br />
 Except for this we have also imported stopwords that is extracted from the nltk.corpus package which will help us get rid of the 
 words that I won't want to use to describe the summary of my content/ words. 
+
 ### 1. file_open()
 
-Here, I have just implemented the file read method basically where the entire citeseer directory is passed. This function,
+Here, I have just implemented the file read method basically where the entire citeseer directory is passed. This function,      
 not only helps in reading the file but also helps in preparing the `words_list` & `words_dict`. These vars account for
 total words in collection and vocab size(unique terms) respectively.
 
@@ -32,9 +33,9 @@ word. This function works in conjunction with punctuations.
 ### 4. port_stemmer()
 
 This function is the third part of the assignment where we had to implement stemming(i.e. reduce the word to stem word)
-and hence the name port_stemmer. To avoid overstemming and understemming care has to be taken.
+and hence the name port_stemmer. To avoid overstemming and understemming care has to be taken. <br />
 To make it as good as possible, we have another `stem_dict` var which takes care that we don't run into the mainstream error
-of stemming. 
+of stemming. <br />
 `PorterStemmer()` module, comes from the NLTK library. 
 
 ### 5. find_stats()
@@ -47,94 +48,95 @@ The 15% is basically the 15% of the the words list that we have computed.
 
 My environment:
 
-OS: Windows 10
-IDE: VSCode
-Language: Python
-Prereq:
-Have python installed on your system. 
+OS: Windows 10 <br />
+IDE: VSCode <br />
+Language: Python <br />
+Prereq: <br />
+Have python installed on your system. <br />
 Make sure you have the citeseer directory and the python code both in the same folder.
-My structure:
-        Desktop
-        |
-        --folder
-                |
-                -- citeseer folder
-                -- infortr.py
-                -- Readme.md
+
+My structure: <br />
+        Desktop <br />
+        |       <br />
+        --folder <br />
+                | <br />
+                -- citeseer folder <br />
+                -- infortr.py <br />
+                -- Readme.md <br />
 Run using:
 
         `python infortr.py`
 
 ## Answers/ Results:
 
-2(a) Total words in the collection:  476198
-2(b) Total vocab. size:  19886
-2(c) Top 20 words by ranking:
-('the', 25662)
-('of', 18638)
-('and', 14131)
-('a', 13345)
-('to', 11536)
-('in', 10067)
-('for', 7379)
-('is', 6577)
-('we', 5138)
-('that', 4820)
-('this', 4446)
-('are', 3737)
-('on', 3656)
-('an', 3281)
-('with', 3200)
-('as', 3057)
-('by', 2765)
-('data', 2691)
-('be', 2500)
-('information', 2322)
-Stop words from the Top 20 words are:
-('the', 25662)
-('of', 18638)
-('and', 14131)
-('a', 13345)
-('to', 11536)
-('in', 10067)
-('for', 7379)
-('is', 6577)
-('we', 5138)
-('that', 4820)
-('this', 4446)
-('are', 3737)
-('on', 3656)
-('an', 3281)
-('with', 3200)
-('as', 3057)
-('by', 2765)
-('be', 2500)
-Words that account for 15% or more of the total number of words:  4
-<---------------------------------------------------------------------------------------------------------------------------------------->
-Part 3: Integrate a stemmer and stopword
-3(a) Total words in the collection:  294256
-3(b) Total vocab. size:  13778
-3(c) Top 20 words by ranking:
-('system', 3741)
-('use', 3740)
-('data', 2691)
-('agent', 2688)
-('inform', 2398)
-('model', 2315)
-('paper', 2246)
-('queri', 1905)
-('user', 1756)
-('learn', 1740)
-('algorithm', 1584)
-('1', 1552)
-('approach', 1544)
-('problem', 1543)
-('applic', 1522)
-('present', 1507)
-('base', 1486)
-('web', 1439)
-('databas', 1424)
-('comput', 1411)
-Stop words from the Top 20 words are:
-Not in top 20. Hence, 0 stopwords
-Words that account for 15% or more of the total number of words:  24
+2(a) Total words in the collection:  476198 <br /><br />
+2(b) Total vocab. size:  19886 <br /><br />
+2(c) Top 20 words by ranking: <br /><br />
+('the', 25662) <br />
+('of', 18638) <br />
+('and', 14131) <br />
+('a', 13345) <br />
+('to', 11536) <br />
+('in', 10067) <br />
+('for', 7379) <br />
+('is', 6577)<br />
+('we', 5138)<br />
+('that', 4820)<br />
+('this', 4446)<br />
+('are', 3737)<br />
+('on', 3656)<br />
+('an', 3281)<br />
+('with', 3200)<br />
+('as', 3057)<br />
+('by', 2765)<br />
+('data', 2691)<br />
+('be', 2500)<br />
+('information', 2322)<br />
+Stop words from the Top 20 words are:<br /><br />
+('the', 25662)<br />
+('of', 18638)<br />
+('and', 14131)<br />
+('a', 13345)<br />
+('to', 11536)<br />
+('in', 10067)<br />
+('for', 7379)<br />
+('is', 6577)<br />
+('we', 5138)<br />
+('that', 4820)<br />
+('this', 4446)<br />
+('are', 3737)<br />
+('on', 3656)<br />
+('an', 3281)<br />
+('with', 3200)<br />
+('as', 3057)<br />
+('by', 2765)<br />
+('be', 2500)<br />
+Words that account for 15% or more of the total number of words:  4<br /><br />
+<----------------------------------------------------------------------------------------------------------------------------------------><br /><br />
+Part 3: Integrate a stemmer and stopword<br />
+3(a) Total words in the collection:  294256<br /><br />
+3(b) Total vocab. size:  13778<br /><br />
+3(c) Top 20 words by ranking:<br />
+('system', 3741)<br />
+('use', 3740)<br />
+('data', 2691)<br />
+('agent', 2688)<br />
+('inform', 2398)<br />
+('model', 2315)<br />
+('paper', 2246)<br />
+('queri', 1905)<br />
+('user', 1756)<br />
+('learn', 1740)<br />
+('algorithm', 1584)<br />
+('1', 1552)<br />
+('approach', 1544)<br />
+('problem', 1543)<br />
+('applic', 1522)<br />
+('present', 1507)<br />
+('base', 1486)<br />
+('web', 1439)<br />
+('databas', 1424)<br />
+('comput', 1411)<br /><br />
+Stop words from the Top 20 words are:<br />
+Not in top 20. Hence, 0 stopwords<br />
+Words that account for 15% or more of the total number of words:  24<br />
